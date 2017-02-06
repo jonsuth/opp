@@ -1,7 +1,5 @@
 package exercises.exercise4;
 
-import java.util.DoubleSummaryStatistics;
-
 /**
  * Created by Jon Suthakaran on 05/02/2017.
  */
@@ -20,9 +18,9 @@ public class TestConsumption {
 
     public static void computeFuelCompumtion(SportCar car) {
         System.out.println(
-                (1000 + (car.getWeight()/5))*
-                (car.getTopSpeed()/100)*
-                (car.getAerodynamics()*car.getHorsepower())/1000
+                (1000 + (car.getWeight() / 5)) *
+                        (car.getTopSpeed() / 100) *
+                        (car.getAerodynamics() * car.getHorsepower()) / 1000
         );
     }
 }
