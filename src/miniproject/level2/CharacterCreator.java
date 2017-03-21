@@ -1,7 +1,5 @@
 package miniproject.level2;
 
-import miniproject.characters.BaseCharacter;
-
 import java.util.Random;
 import java.util.Scanner;
 
